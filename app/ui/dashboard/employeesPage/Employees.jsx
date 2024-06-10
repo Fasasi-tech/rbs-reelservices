@@ -156,7 +156,7 @@ console.log(filter)
             </div>
         </div>
         <div className='mt-8 overflow-scroll w-full  lg:overflow-hidden'>
-            <EmployeesTable employeeList={employees} />
+            {/* <EmployeesTable employeeList={employees} /> */}
             {/* <Pagination getPageNumbers={getPageNumbers} changePageNumber={changePageNumber}/> */}
 
         </div>
