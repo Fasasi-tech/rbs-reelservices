@@ -35,7 +35,7 @@ const page = ({params}) => {
     </div>
     
     <div>
-      <LeaveRequest />
+    
     </div>
   </div>
   )
