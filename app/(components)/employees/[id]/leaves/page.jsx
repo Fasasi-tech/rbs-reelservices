@@ -4,7 +4,7 @@ import SingleEmployeeNavLink from '@/app/ui/dashboard/navLinks/SingleEmployeeNav
 import { useGetEmployeeQuery } from '@/app/ui/slices/usersApiSlice';
 import Loader from '@/app/ui/dashboard/Loader';
 import EmployeeDetails from '@/app/ui/dashboard/employeeDetails/EmployeeDetails';
-import LeaveRequest from '@/app/ui/LeaveRequest/LeaveRequest';
+
 
 
 const page = ({params}) => {
