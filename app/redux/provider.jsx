@@ -92,10 +92,9 @@ useEffect(() => {
     }
   };
 
-  if (storedAccessToken) {
-    const id = setInterval(refreshTokenCheck, 3000); // Check every 3 seconds
-    setIntervalId(id);
-  }
+  const id = setInterval(refreshTokenCheck, 3000); // Check every 3 seconds
+  setIntervalId(id);
+
   return () => clearInterval(id);
 }, []);
 
