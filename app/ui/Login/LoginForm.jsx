@@ -4,8 +4,6 @@ import React from 'react';
 import { useMsal } from '@azure/msal-react';
 import { useDispatch, useSelector } from 'react-redux';
 import { signIn, signOut } from '../slices/authActions';
-import { useGetProtectedDataQuery } from '../slices/usersApiSlice';
-import Loader from '../dashboard/Loader';
 import { GoSignOut } from "react-icons/go";
 import { FaRegUser } from "react-icons/fa";
 import Link from 'next/link';
