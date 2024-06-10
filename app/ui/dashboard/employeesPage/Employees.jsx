@@ -91,7 +91,7 @@ const  {data:employees, isLoading, error}= useGetEmployeesQuery()
         setFilter(prevState => !prevState)
     }
 
-console.log(filter)
+
 
   return (
     <div>
