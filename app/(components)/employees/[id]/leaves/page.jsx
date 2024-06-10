@@ -6,22 +6,6 @@ import Loader from '@/app/ui/dashboard/Loader';
 import EmployeeDetails from '@/app/ui/dashboard/employeeDetails/EmployeeDetails';
 import LeaveRequest from '@/app/ui/LeaveRequest/LeaveRequest';
 
-// const getPost = async (id) =>{
-//     const res = await fetch (`https://jsonplaceholder.typicode.com/posts/${id}`
-//     ,{
-//     next:{
-//        revalidate:3600
-//     }
-//     }
-//     )
-
-//     if (!res.ok){
-//         throw new Error('Invalid request')
-//     }
-
-//     return res.json()
-// }
-
 
 const page = ({params}) => {
     const {id} = params;
