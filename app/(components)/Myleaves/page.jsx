@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className=' mt-24  w-full '>
         <div className=''>
-        <LeaveRequest />
+        {/* <LeaveRequest /> */}
         </div>
        
 
